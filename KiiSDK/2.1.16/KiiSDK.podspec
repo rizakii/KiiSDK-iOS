@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rizakii/KiiSDK-iOS.git", :tag => "2.1.16" }
 
   s.source_files = 'KiiSDK.framework/Versions/A/Headers/*{.h,.hpp}'
-  s.preserve_paths = 'KiiSDK.framework/*'
+  s.preserve_paths = 'KiiSDK.framework'
   s.header_dir = 'KiiSDK'
   s.header_mappings_dir = 'KiiSDK.framework/Versions/A/Headers/'
   s.requires_arc = true
